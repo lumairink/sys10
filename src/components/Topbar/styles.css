@@ -1,0 +1,30 @@
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 5;
+  left: 0;
+  right: 0;
+  padding: 32px;
+  background-color: white;
+  box-shadow: 0px 0px 10px var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.topbar img {
+  width: 110px;
+}
+
+.topbar .search {
+  width: 414px;
+  height: 40px;
+  background: #f8f8f9 0% 0% no-repeat padding-box;
+  border-radius: 15px;
+  border: 0px;
+  padding: 0 40px;
+  outline: none;
+}

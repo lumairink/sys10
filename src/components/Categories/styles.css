@@ -1,0 +1,31 @@
+.categories .react-tabs__tab--selected {
+  color: var(--primary-color) !important;
+  background: none;
+}
+
+.categories .react-tabs__tab--selected::after {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 47px;
+  height: 3px;
+  display: block;
+  margin: 0 auto;
+  background: var(--primary-color);
+  content: "";
+}
+
+.categories .react-tabs__tab {
+  border: none;
+  color: var(--font-color);
+}
+
+.categories .react-tabs__tab-list {
+  border-bottom: 1px solid #e5e6e9;
+}
+
+.categories .react-tabs__tab:focus {
+  box-shadow: none;
+  border-color: transparent;
+}

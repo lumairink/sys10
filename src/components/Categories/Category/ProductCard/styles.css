@@ -1,0 +1,40 @@
+.card {
+  top: 175px;
+  left: 32px;
+  width: 169px;
+  height: 169px;
+  border: 1px solid #0000001a;
+  border-radius: 10px;
+  background: white;
+  display: flex;
+  opacity: 1;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.card img {
+  width: calc(100% - 20px);
+  border-radius: 10px;
+}
+
+.product-list-tile {
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px 20px 0px;
+}
+
+.product-list-tile > div {
+  width: 169px;
+  margin-bottom: 5px;
+}
+
+.product-list-tile .product-name {
+  color: var(--product-name-color);
+  font-weight: bold;
+} 
+
+.product-list-tile .product-price {
+  color: var(--font-color);
+  font-weight: 500;
+}
